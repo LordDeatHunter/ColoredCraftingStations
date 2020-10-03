@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "C",
+    "T",
+    "H"
+  ],
+  "key": {
+    "C": {
+      "item": "minecraft:red_carpet"
+    },
+    "T": {
+      "item": "minecraft:crafting_table"
+    },
+    "H": {
+      "item": "minecraft:chest"
+    }
+  },
+  "result": {
+    "item": "coloredcraftingstations:crafting_station_red",
+    "count": 1
+  }
+}
+

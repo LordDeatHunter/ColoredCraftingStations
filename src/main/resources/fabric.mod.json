@@ -1,0 +1,40 @@
+{
+  "schemaVersion": 1,
+  "id": "coloredcraftingstations",
+  "version": "${version}",
+
+  "name": "ColoredCraftingStations",
+  "description": "Colored Crafting Stations!",
+  "authors": [
+    "DeatHunter"
+  ],
+  "contact": {
+    "homepage": "",
+    "sources": ""
+  },
+
+  "license": "CC0-1.0",
+  "icon": "assets/coloredcraftingstations/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "wraith.coloredcraftingstations.ColoredCraftingStations"
+    ],
+    "client": [
+      "wraith.coloredcraftingstations.ColoredCraftingStationsClient"
+    ]
+  },
+  "mixins": [
+    "coloredcraftingstations.mixins.json"
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.7.4",
+    "fabric": "*",
+    "minecraft": "1.16.x"
+  },
+  "suggests": {
+    "flamingo": "*"
+  }
+}
