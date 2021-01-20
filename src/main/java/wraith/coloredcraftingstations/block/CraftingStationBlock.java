@@ -31,11 +31,12 @@ public class CraftingStationBlock extends BlockWithEntity {
     public static final DirectionProperty FACING = HorizontalFacingBlock.FACING;;
 
     //top
-    protected static final VoxelShape vs1 = Block.createCuboidShape(0f, 13f, 0f, 16f, 16f, 16f);
-    protected static final VoxelShape vs2 = Block.createCuboidShape(0f, 0f, 0f, 3f, 13f, 3f);
-    protected static final VoxelShape vs3 = Block.createCuboidShape(13f, 0f, 0f, 16f, 13f, 3f);
-    protected static final VoxelShape vs4 = Block.createCuboidShape(0f, 0f, 13f, 3f, 13f, 16f);
-    protected static final VoxelShape vs5 = Block.createCuboidShape(13f, 0f, 13f, 16f, 13f, 16f);
+    protected static final VoxelShape vs1 = Block.createCuboidShape(0f, 12f, 0f, 16f, 16f, 16f);
+
+    protected static final VoxelShape vs2 = Block.createCuboidShape(1f, 0f, 1f, 4f, 12f, 4f);
+    protected static final VoxelShape vs3 = Block.createCuboidShape(12f, 0f, 1f, 15f, 12f, 4f);
+    protected static final VoxelShape vs4 = Block.createCuboidShape(1f, 0f, 12f, 4f, 12f, 15f);
+    protected static final VoxelShape vs5 = Block.createCuboidShape(12f, 0f, 12f, 15f, 12f, 15f);
     protected static final VoxelShape VOXEL_SHAPE = VoxelShapes.union(vs1, vs2, vs3, vs4, vs5).simplify();
 
     public CraftingStationBlock(Settings settings) {

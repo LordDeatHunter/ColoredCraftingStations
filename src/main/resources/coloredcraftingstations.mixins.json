@@ -4,6 +4,10 @@
   "package": "wraith.coloredcraftingstations.mixin",
   "compatibilityLevel": "JAVA_8",
   "mixins": [
+    "ItemStackMixin",
+    "ModelLoaderMixin",
+    "NamespaceResourceManagerMixin",
+    "RecipeManagerMixin"
   ],
   "client": [
   ],

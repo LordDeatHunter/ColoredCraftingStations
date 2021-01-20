@@ -6,14 +6,9 @@
   "name": "ColoredCraftingStations",
   "description": "Colored Crafting Stations!",
   "authors": [
-    "DeatHunter"
+    "LordDeatHunter"
   ],
-  "contact": {
-    "homepage": "",
-    "sources": ""
-  },
-
-  "license": "CC0-1.0",
+  "license": "MIT",
   "icon": "assets/coloredcraftingstations/icon.png",
 
   "environment": "*",

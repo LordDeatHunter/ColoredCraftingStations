@@ -19,6 +19,7 @@ public class CraftingStationScreen extends HandledScreen<ScreenHandler> {
         super(handler, inventory, title);
     }
 
+    @Override
     protected void init() {
         super.init();
         this.titleX = 29;
